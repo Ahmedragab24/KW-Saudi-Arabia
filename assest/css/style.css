@@ -620,6 +620,9 @@ body.dark-theme {
   font-size: var(--small-font-size);
 }
 
+.popular--btn {
+  margin-top: 1.25rem;
+}
 
 .popular--card:hover {
   box-shadow: 0 10px 16px hsla(0, 66%, 45%, 0.247);
@@ -1250,6 +1253,12 @@ body.dark-theme {
   .nav--logo img {
     width: 120px;
   }
+
+  .home--value {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+  }
   
 }
 
@@ -1262,6 +1271,12 @@ body.dark-theme {
   .home--search {
     width: 412px;
   }
+  .home--value {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+  }
+
 
   .contact--card {
     grid-template-columns: repeat(2, 192px);
@@ -1290,7 +1305,7 @@ body.dark-theme {
   }
   .home--value {
     display: grid;
-    grid-template-columns: repeat(3, max-content);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .logos--container {
